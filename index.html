@@ -1,104 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain King</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 </head>
+
 <body>
-    
-  
-      <div id="home">
-            <nav>
-                <div>
-                  <a class="navbar-brand" href="./index.html">
-                    <img src="./images/your_logo.png" alt="top-logo" width="120px">
-                  </a>
+
+
+    <div id="home">
+        <nav>
+            <div>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/your_logo.png" alt="top-logo" width="120px">LOGO</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                        </svg>
+                    </i>
+                </ul>
+            </div>
+        </nav>
+        <div class="container d-flex align-items-center flex-column">
+            <h2>In the hall of the<b> Mountain King</b></h2>
+            <p>This is a simplenero ant a simple jumbotron-style component for<br />
+                calling extra attention to Featured content or information</p>
+            <div>
+                <div class="container d-flex align-items-center mx-auto p-2">
+                    <a href="Learn more" class="mb-4"><button type="button" class="btn btn-primary">Learn
+                            more</button></a>
+                    <a href="Download" class="mb-4"><button type="button" class="btn btn-danger">Download</button></a>
                 </div>
-                  <div class="menu">
-                    <ul>
-                      <i>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
-                      </i>
-                    </ul>
-                  </div>
-              </nav>
-              <div class="container d-flex align-items-center flex-column">
-                <h2>In the hall of the<b> Mountain King</b></h2>
-                <p>This is a simplenero ant a simple jumbotron-style component for<br/>
-                    calling extra attention to Featured content or information</p>
-                    <div>
-                    <div class="container d-flex align-items-center mx-auto p-2">
-                      <a href="Learn more" class="mb-4"><button type="button" class="btn btn-primary">Learn more</button></a>
-                      <a href="Download" class="mb-4"><button type="button" class="btn btn-danger">Download</button></a>
-                    </div>
-                </div>
-              </div>
-      </div><!-- /#home -->
-  
-      <div id="features">
+            </div>
+        </div>
+    </div><!-- /#home -->
+
+    <div id="features">
         <div class="container d-flex align-items-center flex-column">
             <div class="container d-flex align-items-center">
-              
+
                 <div class="container d-flex align-items-center flex-column">
                     <div class="circle">
-                      <div class="students">
-                        <i>
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>
-                        </i>
-                      </div>
+                        <div class="students">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z" />
+                                </svg>
+                            </i>
+                        </div>
                     </div>
                     <h3><b>Consectetur Risus</b></h3>
-                    <p>Cras justo odio, dapibus ac facilisis in egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  </div>
-      
-              <div class="container d-flex align-items-center flex-column">
-                <div class="circle">
-                  <div class="students">
-                    <i>
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>
-                    </i>
-                  </div>
+                    <p>Cras justo odio, dapibus ac facilisis in egestas eget quam. Donec id elit non mi porta gravida at
+                        eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 </div>
-                <h3><b>Ultricies Aenean</b></h3>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
-              </div>
-      
-              <div class="container d-flex align-items-center flex-column">
-                <div class="circle">
-                  <div class="students">
-                    <i>
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>
-                    </i>
-                  </div>
+
+                <div class="container d-flex align-items-center flex-column">
+                    <div class="circle">
+                        <div class="students">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z" />
+                                </svg>
+                            </i>
+                        </div>
+                    </div>
+                    <h3><b>Ultricies Aenean</b></h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante
+                        venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
                 </div>
-                <h3><b>Cras Sollicitudin</b></h3>
-                <p>Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.</p>
-              </div>
+
+                <div class="container d-flex align-items-center flex-column">
+                    <div class="circle">
+                        <div class="students">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z" />
+                                </svg>
+                            </i>
+                        </div>
+                    </div>
+                    <h3><b>Cras Sollicitudin</b></h3>
+                    <p>Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem
+                        lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.</p>
+                </div>
             </div>
-          </div>
-        
-      </div><!-- /#features -->
-  
-      <div id="get-involved">
+        </div>
+
+    </div><!-- /#features -->
+
+    <div id="about" class="d-flex justify-content-center">
+        <div class="container-lg row justify-content-end">
+            <div class="col-lg-6 col-12 d-flex flex-column backcolor p-5">
+                <h2>Ligula Mattis Ornare Ultricies</h2>
+                <h3>Palaentesque Cursus Amet Parturient Etiam</h3>
+                <p>Cras justo odio, dapibus ac facilisis in egestas eget quam. Donec id elit non mi porta
+                    gravida at
+                    eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <div class="justify-content-between row align-items-center">
+                    <div class="col-5 d-flex align-items-center flex-column border cont p-3 ">
+                        <h3>Ultricies </h3>
+                        <h3>23,578</h3>
+                    </div>
+                    <div class="col-5 d-flex align-items-center flex-column border cont p-3">
+                        <h3>Fermentum</h3>
+                        <h3>12,702</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /#about -->
+
+
+    <div id="blog" class="d-flex flex-column justify-content-center">
+        <div class="container row justify-content-start m-0">
+            <div class="col-7 d-flex flex-column p-">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur
+                    blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem
+                    malesuada magna mollis euismod</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus.
+                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus
+                    commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio,
+                    dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
+            </div>
+            <div class="col-5 d-flex flex-column p-5">
+                <img src="./images/1200.jpeg" alt="girl with velo">
+            </div>
+        </div>
+        <div>
+            <a href="Take a Look" class="m-4 p-5"><button type="button" class="btn btn-danger">Take a Look</button></a>
+        </div>
+    </div><!-- /#blog -->
+
+    <div id="history" class="d-flex justify-content-center">
+        <div class="container row justify-content-start m-0">
+            <div class="col-6 d-flex flex-column backcolor p-5">
+                <h3>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet Praesent
+                    commodo cursus magna, vel scelerisque nisl consectetur et</h3>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non
+                    commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam.
+                    Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in
+                    egestas eget quam. Praesent commodo cursus magna vel scelerisque nisl consectetur et</p>
+                <h3>Fermentum Dapibus</h3>
+                <p>Nibh Ellam Reus Bibendum <br> Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+            </div>
+        </div>
+    </div><!-- /#history -->
+
+    <div id="photos">
+        <section id="photos" class="p-5">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <img src="./images/300.jpeg" alt="300">
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="./images/800.jpeg" alt="800">
+                            </div>
+                            <div class="col-6">
+                                <img src="./images/400.jpeg" alt="400">
+                                <img src="./images/2476.jpeg" alt="2476">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!-- /#photos -->
+
+
+    <div id="partenaires" class="container d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+                <div>
+                    <img src="./images/logo-sample-01.jpg" alt="advantage" width="100px">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-02.jpg" alt="company name" width="100px">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-03.png" alt="sample" width="100px">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-04.jpg" alt="parallon" width="100px">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-05.jpg" alt="company name" width="100px">
+                </div>
+                <div>
+                    <img src="./images/logo-sample-06.png" alt="squarespace" width="100px">
+                </div>
+        </div>
+    </div><!-- /#partenaires -->
+
+
+    <div id="contacts">
         <!-- Votre code ici -->
-      </div><!-- /#get-involved -->
-  
-      <footer>
+    </div><!-- /#contact -->
+
+
+    <footer>
         <!-- Votre code ici -->
-      </footer>
-  
-      <div id="back-to-top">
+    </footer>
+
+    <div id="back-to-top">
         <!-- Votre code ici -->
-      </div><!-- /#back-to-top -->
+    </div><!-- /#back-to-top -->
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

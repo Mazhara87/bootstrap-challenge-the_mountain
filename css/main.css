@@ -46,3 +46,78 @@ div#home{
     font-size: 12px;
     text-align: center;
 }
+#about{
+    background-image: url('../images/bg_nuage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#about h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: aliceblue;
+}
+#about h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+#about p{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.backcolor{
+    background-color: rgba(51, 241, 238, 0.201);
+}
+
+#about .container{
+    margin: 0;
+}
+.cont{
+    width: 200px;
+    text-align: center;
+}
+#history{
+    background-image: url('../images/bg_appareil_photo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+#history h3{
+    font-size: 20px;
+    color: aliceblue;
+}
+#history p{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+#blog p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+    #about>div>div>div{
+        flex-direction: column !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}
